@@ -6,9 +6,70 @@
     <title>Contact Us</title>
   </head>
   <body>
-    <section>
+    <header>Homework 1</header>
+    <main>
       <h1>Contact Us</h1>
-      <form action=""></form>
-    </section>
+      <form action="formPost.html" method="get">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="Full Name">Full Name:</label>
+          <input type="text" name="Full Name" id="Full Name" />
+          <br />
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" id="Email" />
+          <br />
+          <label for="Phone Number">Phone Number:</label>
+          <input type="tel" name="Phone Number" id="Phone Number" />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend><i>Other Information</i></legend>
+          <label for="Radio Buttons">Are you using radio buttons?</label>
+          <input
+            type="radio"
+            name="Radio Buttons"
+            value="Yes"
+            id="Radio Buttons"
+            checked
+          />
+          Yes
+          <input
+            type="radio"
+            name="Radio Buttons"
+            value="No"
+            id="Radio Buttons"
+          />
+          No
+          <br />
+          <label for="Student Year">Student Year:</label>
+          <select name="Student Year" id="Student Year">
+            <option value="blank"></option>
+            <option value="Freshman">Freshman</option>
+            <option value="Sophomore">Sophomore</option>
+            <option value="Junior">Junior</option>
+            <option value="Senior">Senior</option>
+          </select>
+          <br />
+          <label for="Favorite">Favorite Number 1:</label>
+          <input
+            type="range"
+            name="Favorite"
+            id="Favorite"
+            min="1"
+            max="5"
+            value="2"
+            step="1"
+          />
+          5
+          <br />
+          <label for="Comments">Comments:</label>
+          <input type="textarea" name="TextArea" id="Comments" />
+          <br />
+          <input type="submit" value="Submit Form" />
+        </fieldset>
+      </form>
+    </main>
+    <br />
+    <footer>Homework 1</footer>
   </body>
 </html>
