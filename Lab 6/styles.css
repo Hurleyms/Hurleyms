@@ -10,6 +10,8 @@ header {
   border-bottom: 2px solid #93b5c6;
   background-color: #ddedaa;
   padding: 8px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -19,10 +21,20 @@ header {
 
 .content {
   margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 70%;
+}
 .title {
   border-bottom: 1px dashed #93b5c6;
+  display: flex;
+  align-items: baseline;
 }
 
 .title h1 {
@@ -36,6 +48,10 @@ header {
 
 .summary {
   margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  flex-basis: 100%;
 }
 
 .summary > div {
@@ -49,8 +65,24 @@ header {
 
 .related-content {
   margin-left: 100px;
+  flex-grow: 1;
+  flex-basis: 20%;
 }
 
 .related-content h2 {
   font-size: 18px;
+}
+
+.summary div p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients {
+  flex-grow: 1;
+  flex-basis: 45%;
+}
+.directions {
+  flex-grow: 1;
+  flex-basis: 45%;
 }
