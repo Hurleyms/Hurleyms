@@ -45,3 +45,80 @@ select:focus {
   border-color: #007BFF;
   outline: none;
 }
+/* Style for radio buttons and checkboxes */
+
+input[type="radio"] {
+  accent-color: #ff0000;
+}
+
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ff2600;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: #ff0000;
+}
+
+input[type="checkbox"] {
+  accent-color: #0000ff;
+}
+
+input[type="checkbox"]:focus {
+  accent-color: white;
+  outline: none;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ input[type="submit"]:hover {
+  background-color: darkblue;
+ }
+
+ /* Responsive Design */
+ /* Media Query for screens smaller than 700px */
+@media (max-width: 700px) {
+  form{
+    width: 90%;
+    padding: 10px;
+    background-color: aquamarine;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid orange;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+input[type="radio"]:checked {
+  background-color: orange;
+}
+input[type="checkbox"]:focus {
+  accent-color: aquamarine;
+  outline: none;
+  border: none;
+}
+}
