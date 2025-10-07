@@ -39,3 +39,9 @@ select {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
+input:focus,
+select:focus {
+  border-color: #007BFF;
+  outline: none;
+}
