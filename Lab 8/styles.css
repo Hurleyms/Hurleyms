@@ -1,0 +1,36 @@
+#board {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(3, 100px);
+grid-template-rows: repeat(3, 100px);
+grid-gap: 10px;
+outline: 0px;
+}
+
+div {
+    outline: 1px solid lightblue;
+}
+
+body {
+    font-family: Arial;
+}
+h1 {
+    display: flex;
+    justify-content: center
+}
+
+.x {
+    color: red;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o {
+    color: blue;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
