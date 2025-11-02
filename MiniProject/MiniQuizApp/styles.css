@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #8b008b;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7a0e1d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9a0418;
+}
+
+ol {
+    margin-top: 20px;
+}
+
+li {
+    background-color: lightblue;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid rgb(44, 185, 232);
+}
