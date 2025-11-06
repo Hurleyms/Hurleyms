@@ -20,6 +20,21 @@ userList.innerHTML = list.map(user =>`
     <small>${user.email}</small>
     </li>
     `).join('');
-}
+};
 
 // filter functionality
+
+// add a click event listener to the filter button
+// this will run when the filter button is clicked
+
+document.getElementById("filterBtn").addEventListener("click" , () => {
+
+    const keyword = document.getElementById("filterInput").value.toLowerCase();
+
+    // Use .filter() to create a new array of users that matches the search keyword.
+
+    const filtered = users.filter(u => u.name.toLowerCase().includes(keyword));
+
+    renderUsers(filtered);
+
+});

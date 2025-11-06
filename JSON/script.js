@@ -16,10 +16,12 @@ fetch('student.json')
 
         data.students.forEach( student => {
             // for every student, we create a p tag element
-            const p = document.createElement('P');
+            const p = document.createElement('p');
 
 
-            p.textContent = `${student.name} (${student.major}) - Grade: $(student.grade)`;
+            p.textContent = `${student.name} (${student.major}) - Grade: ${student.grade}`;
+
+            container.appendChild(p);
         })
         
 

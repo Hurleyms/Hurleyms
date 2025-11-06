@@ -52,3 +52,43 @@ background-color: #727171;
 #sortAsc:hover, #sortDesc:hover {
     background-color: #8a8a8a;
 }
+
+#userList {
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgb(0,0,0,0.5);
+padding: 20px;
+}
+
+#userList li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e5e7eb;
+    transition: background-color 0.2s ease;
+}
+
+#userList li:last-child {
+    border-bottom: none;
+}
+
+#userList li:hover {
+    background-color: #f4f6f1;
+}
+
+#userList strong {
+    font-size: 1.1rem;
+    color: #1e3a8a;
+}
+
+#userList small {
+    display: block;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+.controls input,
+.controls button {
+    flex: 0 0 auto;
+}
