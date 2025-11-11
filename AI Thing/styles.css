@@ -1,0 +1,117 @@
+/* container*/
+      .container {
+        width: 500px;
+        height: 270px;
+        border: 2px solid black;
+        position: relative;
+        margin: 20px auto;
+      }
+/*base oval*/
+      .oval {
+        width: 50px;
+        height: 30px;
+        background: lightblue;
+        border-radius: 50%;
+        position: absolute;
+      }
+/*base circle*/
+      .circle {
+        width: 10px;
+        height: 10px;
+        background-color: lightblue;
+        border-radius: 50%;
+        position: absolute;
+      }
+/*square*/
+      .square {
+        width: 30px;
+        height: 30px;
+        background: lightcoral;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+      }
+
+      /* positions for ovals */
+      .oval.one {
+        top: 80px;
+        left: 40px;
+      }
+      .oval.two {
+        top: 100px;
+        left: 170px;
+      }
+      .oval.three {
+        top: 80px;
+        left: 105px;
+      }
+      .oval.four {
+        top: 150px;
+        left: 230px;
+      }
+      .oval.five {
+        top: 80px;
+        left: 440px;
+      }
+      .oval.six {
+        top: 80px;
+        left: 390px;
+      }
+      .oval.seven {
+        top: 80px;
+        left: 340px;
+      }
+      .oval.eight {
+        top: 80px;
+        left: 290px;
+      }
+      .oval.nine {
+        top: 110px;
+        left: 390px;
+      }
+      .oval.ten {
+        top: 110px;
+        left: 440px;
+      }
+      .oval.eleven {
+        top: 110px;
+        left: 340px;
+      }
+      .oval.twelve {
+        top: 110px;
+        left: 290px;
+      }
+      .oval.thirteen {
+        top: 60px;
+        left: 150px;
+      }
+      .oval.fourteen {
+        top: 150px;
+        left: 290px;
+      }
+      .oval.fifteen {
+        top: 40px;
+        left: 220px;
+      }
+/*position for circles*/
+      .circle.sixteen {
+        top: 20px;
+        left: 400px;
+      }
+      .circle.seventeen {
+        top: 20px;
+        left: 411px;
+      }
+      .circle.eighteen {
+        top: 20px;
+        left: 422px;
+      }
+
+      .circle.nineteen {
+        top: 20px;
+        left: 433px;
+      }
+      .circle.twenty {
+        top: 20px;
+        left: 10px;
+      }

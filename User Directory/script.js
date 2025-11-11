@@ -38,3 +38,11 @@ document.getElementById("filterBtn").addEventListener("click" , () => {
     renderUsers(filtered);
 
 });
+
+// sort functionality a-z
+// when clicked we want to display the user in ascending
+document.getElementById("sortAsc").addEventListener("click", () => {
+    const sorted = [...users].sort((a,b) => a.name.localeCompare(b.name));
+
+    renderUsers(sorted);
+});
