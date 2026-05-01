@@ -49,6 +49,8 @@ a {
   width: 25%;
   min-height: 25%;
   background-color: black;
+  border: 2px solid white;
+  border-radius: 25px;
   position: absolute;
   top: 47%;
   left: 50%;
