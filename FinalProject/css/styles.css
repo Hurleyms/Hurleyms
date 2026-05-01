@@ -39,7 +39,7 @@ a {
 }
 
 .hero {
-  min-height: 560px;
+  height: 85vh;
   background-image: url(../images/HERO.png);
   background-size: cover;
   background-position: center;
