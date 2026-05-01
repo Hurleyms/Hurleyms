@@ -49,7 +49,7 @@ a {
 .center {
   text-align: center;
   width: 25%;
-  min-height: 25%;
+  min-height: 1vh;
   background-color: black;
   border: 2px solid white;
   border-radius: 25px;
